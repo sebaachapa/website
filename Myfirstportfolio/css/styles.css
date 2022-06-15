@@ -200,9 +200,34 @@ padding-left: 30px;}
 }
 
 
+/*--------------------------------------------------CONTACTS------------------------------------*/
 
 
+.socialintw{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+}
 
+.cont-social{
+display: flex;
+padding-top: 130px;
+}
+
+
+.formcontact{
+    padding: 40px;
+}
+
+
+.redeslog{
+    padding-right: 60px;
+}
+
+.redeslog a{
+    color: black;
+}
 
 
 
@@ -303,6 +328,11 @@ padding-left: 30px;}
         left:0;
     }
 
+    #check:checked ~ .formcontact{
+        position: relative;
+    }
+
+
     .Aboutme h1{
         font-size:13px;
     }
@@ -379,6 +409,8 @@ padding-left: 30px;}
         height: auto;
         border-radius: 0;
     }
+
+
     
 }
 
